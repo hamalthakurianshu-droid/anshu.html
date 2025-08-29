@@ -1,0 +1,74 @@
+/* Custom CSS for Web Development Essentials */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark text */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-link {
+    color: #007bff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: #0056b3 !important;
+    background-color: #e9ecef;
+}
+
+/* This .active class is for the current page's navigation link */
+.nav-link.active {
+    color: #fff !important;
+    background-color: #007bff;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.07);
+}
+
+.card-header {
+    background-color: #f0f8ff;
+    color: #007bff;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* For code blocks within content */
+pre {
+    background-color: #e9ecef; /* Lighter background for code */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto; /* Enable horizontal scrolling for long lines */
+    font-size: 0.9em;
+}
